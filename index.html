@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="shortcut icon" href="icon/icons8-calculator-color-114.png" type="/image/x-icon">
+</head>
+<body>
+    <button onclick="window.location.href='calculate-2.html'" class="change"><img src="/icon/change_circle_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt=""></button>
+    <div class="calcutator">
+        <input id="display-1" size="16" maxlength="16" readonly >
+        <input id="display" size="16" maxlength="16" value="0" readonly >
+        <div id="buttoms">
+            <button onclick="ToDisplay('/')" class="operator-btn">/</button>
+            <button onclick="ToDisplay('7')">7</button>
+            <button onclick="ToDisplay('8')">8</button>
+            <button onclick="ToDisplay('9')">9</button>
+
+            <button onclick="ToDisplay('*')" class="operator-btn">X</button>
+            <button onclick="ToDisplay('4')">4</button>
+            <button onclick="ToDisplay('5')">5</button>
+            <button onclick="ToDisplay('6')">6</button>
+
+            <button onclick="ToDisplay('-')" class="operator-btn">-</button>
+            <button onclick="ToDisplay('1')">1</button>
+            <button onclick="ToDisplay('2')">2</button>
+            <button onclick="ToDisplay('3')">3</button>
+
+            <button onclick="ToDisplay('+')" class="operator-btn">+</button>
+            <button onclick="ToDisplay('.')">.</button>
+            <button onclick="ToDisplay('0')">0</button>
+            <button onclick="Percent()">%</button>
+
+            <button onclick="Clear()" class="operator-btn">AC</button>
+            <button onclick="ToDisplay(`(`)" class="function">(</button>
+            <button onclick="ToDisplay(`)`)" class="function">)</button>
+            <button onclick="SquareRoot()" class="function">√</button>
+            
+            <button onclick="Delete()" class="operator-btn">DEL</button>
+            <button onclick="Square1()" class="function">x²</button>
+            <button onclick="Square2()" class="function">x³</button>
+            <button onclick="calculate()" class="equal">=</button>
+            
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

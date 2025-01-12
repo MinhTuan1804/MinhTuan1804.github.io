@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="shortcut icon" href="icon/icons8-calculator-color-114.png" type="/image/x-icon">
+     <link rel="stylesheet" href="stylecal.css">
+</head>
+<body>
+    <button onclick="window.location.href='index.html'" class="change" style="padding: 11px;"><img src="/icon/change_circle_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt=""></button>
+    <div class="calcutator">
+        <input id="display-1" size="26" maxlength="26" readonly >
+        <input id="display" size="27" maxlength="27" value="0" readonly >
+        <div id="buttoms">
+
+            <button onclick="Square1()" class="operator-btn">x²</button>    
+            <button onclick="SquareRoot()" class="operator-btn">√</button>
+            <button onclick="Clear()" class="operator-btn">CE</button>
+            <button onclick="Delete()" class="operator-btn"><img src="icon/backspace_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" style="padding: 12px;"></button>
+           
+            <button onclick="Square2()" class="operator-btn">x³</button>
+            <button onclick="ToDisplay(`(`)" class="operator-btn">(</button>
+            <button onclick="ToDisplay(`)`)" class="operator-btn">)</button>
+            <button onclick="ToDisplay('/')" class="operator-btn">/</button>
+
+            <button onclick="ToDisplay('7')" class="number-btn">7</button>
+            <button onclick="ToDisplay('8')" class="number-btn">8</button>
+            <button onclick="ToDisplay('9')" class="number-btn">9</button>
+            <button onclick="ToDisplay('*')" class="operator-btn">x</button>
+            
+            <button onclick="ToDisplay('4')" class="number-btn">4</button>
+            <button onclick="ToDisplay('5')" class="number-btn">5</button>
+            <button onclick="ToDisplay('6')" class="number-btn">6</button>
+            <button onclick="ToDisplay('-')" class="operator-btn">-</button>
+
+            <button onclick="ToDisplay('1')" class="number-btn">1</button>
+            <button onclick="ToDisplay('2')" class="number-btn">2</button>
+            <button onclick="ToDisplay('3')" class="number-btn">3</button>
+            <button onclick="ToDisplay('+')" class="operator-btn">+</button>
+
+            <button onclick="ToDisplay('.')" class="number-btn">.</button>
+            <button onclick="ToDisplay('0')" class="number-btn">0</button>
+            <button onclick="Percent()" class="number-btn">%</button>
+            <button onclick="calculate()" class="equal">=</button>
+
+            
+            
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
