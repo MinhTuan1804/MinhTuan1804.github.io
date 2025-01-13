@@ -62,6 +62,14 @@ button{
     width: 120px;
     height: 120px;
     border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.change img{
+    width: 120px;
+    height: 120px;
+  
 }
 .equal{
     background-color: #D39291;
