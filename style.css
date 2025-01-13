@@ -86,3 +86,41 @@ button:active{
     align-content: center;
     margin-left: 6px;
 }
+@media only screen and (max-width: 767px){
+    body{
+          
+          height:85%;
+          justify-content: start;
+    }
+    .calcutator{
+       
+        max-width: 400px;
+        margin: 5px;
+    }
+    #buttoms{
+        padding: 10px;
+    }
+    button{
+        width: 75px;
+        height: 75px;
+        font-size: 1.5rem;
+    }
+    #display{
+        font-size: 2.6rem;
+    }
+    #display-1{
+        font-size: 1.6rem;
+    }
+    .change{
+          width: 40px;
+          height: 40px;
+    }
+    .change img{
+        width: 40px;
+        height: 40px;
+       position: relative;
+       right: 12px;
+       bottom: 1px;
+    }
+    
+}
