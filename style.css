@@ -80,11 +80,17 @@ button:active{
     background-color:  lightgreen;
 }
 
+.change{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .change img{
+    width: 120px;
+    height: 120px;
     display: flex;
     justify-content: center;
     align-content: center;
-    margin-left: 6px;
 }
 @media only screen and (max-width: 767px){
     body{
